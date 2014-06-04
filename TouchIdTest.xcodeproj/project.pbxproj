@@ -15,6 +15,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		E3B3DD3A193FBC7E0017AEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3C1A8A8193E70140040BFBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3C1A8AF193E70140040BFBB;
+			remoteInfo = TouchIdTest;
+		};
 		E3C1A8C7193E70140040BFBB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E3C1A8A8193E70140040BFBB /* Project object */;
@@ -161,6 +168,7 @@
 				E3C1A8C8193E70140040BFBB /* PBXTargetDependency */,
 				E3C1A8D7193E75F70040BFBB /* PBXTargetDependency */,
 				E3C1A8D9193E75F70040BFBB /* PBXTargetDependency */,
+				E3B3DD3B193FBC7E0017AEFA /* PBXTargetDependency */,
 			);
 			name = TouchIdTestTests;
 			productName = TouchIdTestTests;
@@ -244,6 +252,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		E3B3DD3B193FBC7E0017AEFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3C1A8AF193E70140040BFBB /* TouchIdTest */;
+			targetProxy = E3B3DD3A193FBC7E0017AEFA /* PBXContainerItemProxy */;
+		};
 		E3C1A8C8193E70140040BFBB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E3C1A8AF193E70140040BFBB /* TouchIdTest */;
